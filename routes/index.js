@@ -5,7 +5,7 @@ var projects = require('../projects.json');
  */
 
 exports.viewMin = function(req, res) {
-	projects["min"] - true;
+	projects["min"] = true;
 	res.render('index', projects);
 };
 exports.view = function(req, res){
